@@ -1,0 +1,36 @@
+.featured {
+  padding: 80px 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.featured__header {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 48px;
+}
+.featured__eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #2C4870;
+}
+.featured__header h2 {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  color: #16233B;
+  margin: 12px 0 8px;
+  font-weight: 600;
+}
+.featured__header p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #5B6472;
+}
+.featured__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+@media (max-width: 900px) {
+  .featured__grid { grid-template-columns: 1fr; }
+}
