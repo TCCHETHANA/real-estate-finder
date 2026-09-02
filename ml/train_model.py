@@ -14,7 +14,7 @@ except ImportError:
 
 def train():
     base_dir = Path(__file__).resolve().parent
-    data_path = base_dir / "data" / "processed" / "cleaned_data.csv"
+    data_path = base_dir / "data" / "processed" / "properties_cleaned.csv"
     model_dir = base_dir.parent / "backend" / "models"
     model_dir.mkdir(parents=True, exist_ok=True)
 
