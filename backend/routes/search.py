@@ -6,7 +6,7 @@ search_bp = Blueprint('search', __name__)
 
 # Attempt to locate processed data; load if available, otherwise keep None
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-DATA_PATH = os.path.join(PROJECT_ROOT, 'ml', 'data', 'processed', 'cleaned_data.csv')
+DATA_PATH = os.path.join(PROJECT_ROOT, 'ml', 'data', 'processed', 'properties_cleaned.csv')
 
 df = None
 if os.path.exists(DATA_PATH):
