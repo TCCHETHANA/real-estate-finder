@@ -94,7 +94,7 @@ if __name__ == "__main__":
     base_dir = Path(__file__).resolve().parent
     processed_dir = base_dir / 'data' / 'processed'
     processed_dir.mkdir(parents=True, exist_ok=True)
-    df.to_csv(processed_dir / 'cleaned_data.csv', index=False)
+    df.to_csv(processed_dir / 'properties_cleaned.csv', index=False)
 
     output_dir = base_dir.parent / 'backend' / 'models'
     output_dir.mkdir(parents=True, exist_ok=True)
