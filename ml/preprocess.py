@@ -15,7 +15,7 @@ def normalize_column(name):
 # Step 1: Load raw CSV
 def load_data(path=None):
     if path is None:
-        path = Path(__file__).resolve().parent / "data" / "processed" / "cleaned_data.csv"
+        path = Path(__file__).resolve().parent / "data" / "raw" / "housing_data.csv"
     if not Path(path).is_file():
         raise FileNotFoundError(f"Raw data file not found: {path}")
     if Path(path).stat().st_size == 0:
