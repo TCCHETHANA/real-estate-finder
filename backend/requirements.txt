@@ -2,12 +2,6 @@ Flask==2.3.2
 flask-cors
 pandas
 scikit-learn
-joblib
-xgboost
-flask
-flask-cors
-pandas
-scikit-learn
 xgboost
 joblib
 requests
