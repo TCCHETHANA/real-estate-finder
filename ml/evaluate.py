@@ -9,7 +9,7 @@ import numpy as np
 
 def evaluate():
     base_dir = Path(__file__).resolve().parent
-    data_path = base_dir / "data" / "processed" / "cleaned_data.csv"
+    data_path = base_dir / "data" / "processed" / "properties_cleaned.csv"
     model_path = base_dir.parent / "backend" / "models" / "price_model.pkl"
     output_path = base_dir.parent / "docs" / "actual_vs_predicted.png"
     output_path.parent.mkdir(parents=True, exist_ok=True)
