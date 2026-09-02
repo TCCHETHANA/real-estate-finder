@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # Load dataset
-df = pd.read_csv("../data/raw/YOUR_DATASET_NAME.csv")
+df = pd.read_csv("../data/raw/housing_data.csv")
 
 
 # Count missing values
