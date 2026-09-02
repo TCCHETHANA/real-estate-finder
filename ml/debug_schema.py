@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-path = Path(__file__).resolve().parent / "data" / "processed" / "cleaned_data.csv"
+path = Path(__file__).resolve().parent / "data" / "processed" / "properties_cleaned.csv"
 df = pd.read_csv(path)
 print('shape', df.shape)
 print('total_na', int(df.isna().sum().sum()))
